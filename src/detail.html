@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        body {
+            margin:auto;
+            padding: 0%;
+            width: 100%;
+        }
+        #head{
+            height: 70px;
+            background-color: #52E5BA;
+            box-shadow: 0px 1px 4px;
+        }
+        #head ul li img{
+            height: 56px;
+        }
+        #head ul li{
+            list-style: none;
+            float:left;
+            line-height: 60px;
+            padding: 0px 10px;
+            margin: 3px 0px;
+        }
+        #logoLi{
+            height: 64px;
+        }
+        
+        #head ul li:hover{
+            background-color: #24CC9E;
+            border-radius: 20px;
+        }
+        #head ul li a{
+            width: fit-content;
+            text-decoration-line: none;
+            color: white;
+            font-size: x-large;
+        }
+        .clear{
+            clear: both;
+        }
+        #start{
+            margin: auto;
+            text-align: center;
+        }
+        #start img{
+            margin: 10px;
+            height: 755px;
+        }
+        #leftFoot{
+            width: 30%;
+            height: 200px;
+            background-color: #707070;
+            float: left;
+        }
+        #rightFoot{
+            float: right;
+            background-color: #707070;
+            height: 200px;
+            width: 30%;
+        }
+        #centerFoot{
+            width: 40%;
+            height: 200px;
+            float:left;
+            background-color: #707070;
+        }
+        #centerFoot p{
+            size: 27px;
+            color: white;
+            font-style: italic;
+            line-height: 200px;
+            text-align: center;
+            margin: 0;
+        }
+        footer ul li{
+            line-height: 60px;
+            list-style: none;
+        }
+        footer ul li a{
+            text-decoration-line: none;
+            color: #D9D9D9;
+        }
+        #logoFt{
+            background-color: #D9D9D9;
+            height: 64px;
+            width: fit-content;
+            border-radius: 20px;
+        }
+        @media only screen and (max-width: 1360px){
+            body{
+                width: 100%;
+            }
+            #head{
+            height: 60px;
+            background-color: #52E5BA;
+            box-shadow: 0px 1px 4px;
+            }
+            #head ul li img{
+                height: 48px;
+            }
+            #head ul li{
+                list-style: none;
+                float:left;
+                line-height: 50px;
+                padding: 0px 10px;
+                margin: 3px 0px;
+            }
+            #logoLi{
+                height: 54px;
+            }
+            #head ul li a{
+            font-size: large;
+            }
+            #start a img{
+                height: 500px;
+            }
+            #leftFoot{
+                height: 100px;
+            }
+            #rightFoot{
+                height: 100px;
+            }
+            #centerFoot{
+            height: 100px;
+            }
+            #centerFoot p{
+                size: 15px;
+                line-height: 100px;
+            }
+            footer ul li{
+                float: left;
+                line-height: 30px;
+                padding: 5px;
+            }
+            #logoFt a img{
+                height: 40px;
+            }
+            #logoFt{
+                height: 43px;
+            }
+        }
+        @media only screen and (max-width: 900px){
+            body{
+                width: 100%;
+            }
+            #head{
+            height: 60px;
+            background-color: #52E5BA;
+            box-shadow: 0px 1px 4px;
+            }
+            #head ul li img{
+                height: 48px;
+            }
+            #head ul li{
+                list-style: none;
+                float:left;
+                line-height: 50px;
+                padding: 0px 10px;
+                margin: 3px 0px;
+            }
+            #logoLi{
+                height: 54px;
+            }
+            #head ul li a{
+            font-size: large;
+            }
+            #start a img{
+                height: 500px;
+            }
+            #leftFoot ul{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div id="head">
+        <ul>
+            <li id="logoLi"><a href="./mbti.html"><img id="logo" src="../image/logo.png" alt="logo"></a></li>
+            <li><a href="./page2">영양성분측정</a></li>
+            <li><a href="./page3">식단추천</a></li>
+        </ul>
+        </div>
+    </nav>
+    <div class="clear"></div>
+    <section>
+        <div id="start">
+          <img id="main" src="../image/lowcarbon_detail.png" alt="lowcarbon_detail">
+        </div>
+    </section>
+    <div class="clear"></div>
+    <footer>
+        <div id="leftFoot">
+            <ul>
+                <li><div id="logoFt"><a href="./mbti.html"><img id="logo" src="../image/logo_footer.png" alt="logo"></a></div></li>
+                <li><a href="./page2">영양성분측정</a></li>
+                <li><a href="./page3">식단추천</a></li>
+            </ul>
+        </div>
+        <div id="centerFoot">
+            <p>ⓒCopyright Seonghyun Koo</p>
+        </div>
+        <div id="rightFoot"></div>
+    </footer>
+</body>
