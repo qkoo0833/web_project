@@ -182,11 +182,11 @@ $(document).ready(function(){
         cycle+=questions[idx].cycle
         idx++
         if(idx>20){
-            location.href="./result.html?carbon="+carbon.toString()
-            +"&keto"+keto.toString()
-            +"&fat"+fat.toString()
-            +"&flex"+flex.toString()
-            +"&cycle"+cycle.toString()
+            location.href="./result.html?lowcarbon="+carbon.toString()
+            +"&keto="+keto.toString()
+            +"&lowfat="+fat.toString()
+            +"&flex="+flex.toString()
+            +"&cycle="+cycle.toString()
         }
         $("#top>p").text(questions[idx].question)
         $("#number").text((idx+1).toString()+"/21")
@@ -194,11 +194,11 @@ $(document).ready(function(){
     $("#no").on("click",function(){
         idx++
         if(idx>20){
-            location.href="./result.html?carbon="+carbon.toString()
-            +"&keto"+keto.toString()
-            +"&fat"+fat.toString()
-            +"&flex"+flex.toString()
-            +"&cycle"+cycle.toString()
+            location.href="./result.html?lowcarbon="+carbon.toString()
+            +"&keto="+keto.toString()
+            +"&lowfat="+fat.toString()
+            +"&flex="+flex.toString()
+            +"&cycle="+cycle.toString()
         }
         $("#top>p").text(questions[idx].question)
         $("#number").text((idx+1).toString()+"/21")
